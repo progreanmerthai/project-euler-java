@@ -68,6 +68,12 @@ solved
 - 523: First Sort I ([problem](https://projecteuler.net/problem=523) | [solution](src/pe/Pe523.java))
 - 531: Chinese leftovers ([problem](https://projecteuler.net/problem=531) | [solution](src/pe/Pe531.java))
 
+memo
+--------
+- 以前 Haskell で解いていた時に難度が高くて残していた問題に挑戦。
+- なるべく Java8 のラムダ＋ストリームを使っているが、ネイティブな型とその配列を用いた場合に比べて、数十から数百倍の速度差が出る場合もあるので、そうした問題では後者を用いた。
+- 実行時間に大きな差がある場合、純粋関数型言語ではやや難しい動的計画法や「ふるい」など、メモリ領域を書き換えながら進行する副作用のあるアルゴリズムを活用。
+
 resources
 --------
 - [Project Euler home](https://projecteuler.net/)
